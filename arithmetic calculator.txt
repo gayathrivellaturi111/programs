@@ -1,0 +1,22 @@
+import java.util.scanner;
+public class javaprogram
+{
+   public static void main(string args[])
+  {
+    int first,second,add,subtract,multiply;
+      float devide;
+      scanner scanner=new scanner(system.in);
+      system.out.print("enter two numbers:");
+       first=scanner.nextInt();
+       second=scanner.nextInt();
+        
+        add=first+second;
+        subtract=first-second;
+        multiply=first*second;
+        devide=(float)first/second;
+        systen.out.println("sum="+add);
+        system.out.println("difference="+subtract);
+        system.out.println("multiplication="+multiply);
+        system.out.println("division="+devide);
+   }
+}
